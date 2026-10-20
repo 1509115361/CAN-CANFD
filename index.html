@@ -848,7 +848,7 @@ Motor Speed"></textarea>
                 const salt = Math.floor(Math.random() * 1000000);
                 
                 // 生成签名
-                const str = `${7471331}${text}${salt}${egyXVrSCTWqD7OWpNVHQ3EV1eG7P6Psu}`;
+                const str = `${20251227002528468}${text}${salt}${U8URoVuzcZl5wzNrAxzE}`;
                 const sign = CryptoJS.MD5(str).toString();
                 
                 // 构造API请求URL
@@ -857,7 +857,7 @@ Motor Speed"></textarea>
                     q: text,
                     from: from,
                     to: to,
-                    appid: 7471331,
+                    appid: 20251227002528468,
                     salt: salt,
                     sign: sign
                 };
